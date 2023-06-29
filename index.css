@@ -1,0 +1,248 @@
+body {
+    margin: auto;
+    width: 50%;
+    padding-bottom: 75px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #F8F2E6; /* More tanish gray background */
+    color: #3C3C3C; /* Dark grey text */
+}
+
+h3 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+#navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 60px;
+    background-color: #A64B4B; /* Set the background color with transparency */
+    opacity: .95;
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    z-index: 999; /* Ensure the navbar appears above other elements */
+    align-items: center; /* Center the text vertically */
+    justify-content: center;
+    font-weight: 600;
+    
+  }
+
+#navbar nav {
+    display: flex; /* Display the navbar items in a row */
+    flex-direction: row;
+   
+    align-items: center;
+}
+
+.navbar-item {
+    margin: 0 10px; /* Add spacing between the items */ 
+    
+    
+}
+
+.navbar-item a {
+    text-decoration: none; /* Remove underline from links */
+    color: white;
+    font-size: 19px;
+    
+}
+
+#navbar-item-home {
+    display: flex;
+    border-radius: 5px; /* Add rounded corners to the border */
+    background-color: cyan; /* Set the background color to match the border */
+    border: 2px solid #4169E1;
+    width: 80px;
+    height: 30px; 
+    justify-content: center;
+    align-items: center;
+}
+
+#home-main-header {
+    display: flex;
+    height: 40%;
+    margin-top: 125px;
+    flex-direction: column;
+    /* background-image: url("https://www.hdwallpapers.in/download/plain_light_red_background_hd_red_aesthetic-2560x1440.jpg"); */
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: #3C3C3C;
+}
+
+#home-main-header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+#home-main-header-header {
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#home-main-header-identity {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#socials-main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#social-media-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+#social-media-icons img{
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    margin-right: 5px;
+    
+}
+
+#home-main-header-moreaboutme-btn {
+    background-color: #A64B4B;
+    border-style: solid;
+    border-width: 2px;
+    border-color: cyan;
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+    padding: 0;
+    border-radius: 8px;
+    width: 14vw;
+    height: 8vh;
+}
+
+#home-main-header-moreaboutme-btn:hover {
+    /* Styles for the button when hovered */
+    background-color: #8B3535;
+}
+
+#home-aboutme-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#home-aboutme-section-description {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#home-aboutme-section-description-header {
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0px;
+}
+
+#home-aboutme-section-description-text {
+    line-height: 1.5;
+}
+
+#home-myservices-section {
+    display: flex;
+    flex-direction: column;
+}
+#home-myservices-section-header {
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0px;
+}
+
+#home-myservicse-section-description {
+    line-height: 1.5;
+}
+
+
+.home-myservices-section-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 210px);
+    grid-template-rows: 130px;
+    grid-gap: 30px;
+
+}
+
+.home-myservices-section-service-header {
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 10px;
+}
+
+#home-myservices-section-description {
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+#home-myservices-section-websitedevelopment-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A64B4B;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 8%;
+    
+}
+
+#home-myservices-section-websitedevelopment-service:hover {
+    transform: scale(1.05);
+}
+
+#home-myservices-section-mobileappdevelopment-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A64B4B;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 8%;
+}
+
+#home-myservices-section-mobileappdevelopment-service:hover {
+    transform: scale(1.05);
+}
+
+#home-myservices-section-tutoring-service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A64B4B;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 8%;
+}
+
+#home-myservices-section-tutoring-service:hover {
+    transform: scale(1.05);
+}
+
+
+#home-myservices-section .home-myservices-section-services-grid img {
+    width: 50px; /* Set the width of the image */
+    height: 50px; /* Set the height of the image */
+    object-fit: cover; /* Ensures the aspect ratio of the image is maintained */
+}
+

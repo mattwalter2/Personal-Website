@@ -1,0 +1,79 @@
+body {
+    margin: auto;
+    width: 50%;
+    height: 875px;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #F8F2E6; /* More tanish gray background */
+    color: #3C3C3C; /* Dark grey text */
+}
+
+#navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    height: 60px;
+    background-color: #A64B4B; /* Set the background color with transparency */
+    opacity: .95;
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    z-index: 999; /* Ensure the navbar appears above other elements */
+    align-items: center; /* Center the text vertically */
+    justify-content: center;
+    font-weight: 600;
+    
+  }
+
+#navbar nav {
+    display: flex; /* Display the navbar items in a row */
+    flex-direction: row;
+   
+    align-items: center;
+}
+
+.navbar-item {
+    margin: 0 10px; /* Add spacing between the items */ 
+    
+    
+}
+
+.navbar-item a {
+    text-decoration: none; /* Remove underline from links */
+    color: white;
+    font-size: 19px;
+    
+}
+
+#navbar-item-socials {
+    display: flex;
+    border-radius: 5px; /* Add rounded corners to the border */
+    background-color: cyan; /* Set the background color to match the border */
+    border: 2px solid #4169E1;
+    width: 80px;
+    height: 30px; 
+    justify-content: center;
+    align-items: center;
+}
+
+#socials-main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#social-media-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+#social-media-icons img{
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    margin-right: 25px;
+    
+}
