@@ -24,14 +24,11 @@
                 <div class="navbar-item">
                     <a href="contact.html">Contact</a>
                 </div>
-                <div class="navbar-item">
-                    <a href="socials.html">Socials</a>
-                </div>
             </nav>
         </div>
         <div id="resume-main-header-section">
             <h1 id="resume-main-header">Resume</h1>
-            <button id="resume-main-header-btn">See as pdf</button>
+            <button id="resume-main-header-btn" onclick="redirectToResume()">See as Doc</button>
         </div>
         <hr>
         <div class="resume-education-section">
@@ -132,13 +129,41 @@
                 </div>
                 <div class="resume-information-box-bottom-section">
                     <ul>
-                        <li><h4 class="resume-information-box-left-section-bottom-description">60+ hours of experience teaching Algebra, Trigonometry, Calculus, & SAT prep</h4></li>
+                        <li><h4 class="resume-information-box-left-section-bottom-description">90+ hours of experience teaching Algebra, Trigonometry, Calculus, & SAT prep</h4></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="resume-information-box">
+                <div class="resume-information-box-top-section">
+                    <div class="resume-information-box-top-section-left">
+                        <div class="resume-information-box-top-section-left-image">
+                            <img src="https://brand.psu.edu/images/backgrounds/penn-state-shield.jpg" />
+                        </div>
+                        <div class="resume-information-box-top-section-left-text">
+                            <h3 class="resume-information-box-left-section-header">Undergraduate Research Assistant</h3>
+                            <h4 class="resume-information-box-left-section-subheader">Artificial Intelligence & Computer Science</h4>
+                        </div>
+                    </div>
+                    <div class="resume-information-box-top-section-right">
+                    
+                        <h3 class="resume-information-box-top-right-section-date">May 2023 - Present</h3>
+                        <h4 class="resume-information-box-top-right-section-location">University Park, PA</h4>
+                    </div>
+                </div>
+                <div class="resume-information-box-bottom-section">
+                    <ul>
+                        <li><h4 class="resume-information-box-left-section-bottom-description">Predicting SAT-Solver(Boolean Satisfiability) and SMT-Solver using Graph Neural Networks</h4></li>
                     </ul>
                 </div>
 
             </div>
         </div>
     
-
+        <script>
+            function redirectToResume() {
+                window.location.href = "https://docs.google.com/document/d/1sIdWe05Ls0VXQ-vvhmNoJcRx_OuHSun5HAyA1m83VP4/edit?usp=sharing";
+            }
+        </script>
     </body>
 </html>

@@ -24,9 +24,6 @@
                 <div class="navbar-item">
                     <a href="contact.html">Contact</a>
                 </div>
-                <div class="navbar-item">
-                    <a href="socials.html">Socials</a>
-                </div>
             </nav>
         </div>
         <div id="home-main-header">
@@ -42,7 +39,7 @@
                     <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
                 </a>
             </div>
-            <button id="home-main-header-moreaboutme-btn">More about me</button>
+            <button id="home-main-header-moreaboutme-btn" onclick="scrollToAbout()">More about me</button>
         </div>
         <div id="home-aboutme-section">
             <h2 id="home-aboutme-section-description-header">About Me</h2>
@@ -67,5 +64,11 @@
                 </div>
             </div>
         </div>
+        <script>
+            function scrollToAbout() {
+                var section = document.getElementById('home-aboutme-section');
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        </script>
     </body>
 </html>
